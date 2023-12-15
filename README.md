@@ -5,10 +5,13 @@ Based on certain hand signs, the drone will react accordingly. The hand signs ar
 This program is capable of the following actions:
 - Rotate counter-clockwise (Arm Extended)
 <img src="images/ArmExtended.png" alt="Arm Extended" style="height:200px;"/>
+
 - Rotate clockwise (Arm Angled Up)
 <img src="images/ArmAngleUp.png" alt="Arm Angled Up" style="height:200px;"/>
+
 - Do a flip (Pat on head)
 <img src="images/HeadPat.png" alt="Pat on Head" style="height:200px;"/>
+
 - Land (Arm Angled Down)
 <img src="images/ArmAngleDown.png" alt="Arm Angled Down" style="height:200px;"/>
 
