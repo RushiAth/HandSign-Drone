@@ -27,14 +27,14 @@ This program is capable of the following actions:
   - You will likely need to run `sudo apt-get install python3-setuptools` before you can run `pip install .`.
 - [Tello AsyncIO](https://github.com/robagar/tello-asyncio)
   - Run `pip3 install tello-asyncio` to install this package.
-  - Once installed, replace all contents of the `/home/user/.local/lib/python3.6/site-packages/tello_asyncio` (where `user` is your username) with the contents of the `python_packages/tello_asyncio` folder in this repository.
+  - Once installed, replace all contents of the `/home/{user}/.local/lib/python3.6/site-packages/tello_asyncio` (where `{user}` is your username) with the contents of the `python_packages/tello_asyncio` folder in this repository.
 - [Tello AsyncIO Video](https://github.com/robagar/tello-asyncio-video)
   - Clone the repository and run `pip install .` to install package.
-  - Once installed, replace all contents of the `/home/user/.local/lib/python3.6/site-packages/tello_asyncio_video` (where `user` is your username) with the contents of the `python_packages/tello_asyncio_video` folder in this repository.
+  - Once installed, replace all contents of the `/home/{user}/.local/lib/python3.6/site-packages/tello_asyncio_video` (where `{user}` is your username) with the contents of the `python_packages/tello_asyncio_video` folder in this repository.
 - [Jetson Tello](https://github.com/robagar/jetson-tello)
   - You may need to run `pip install numpy` before you install this package.
   - Clone the repository and run `pip install .` to install package.
-  - Once installed, replace all contents of the `/home/user/.local/lib/python3.6/site-packages/jetson_tello` (where `user` is your username) with the contents of the `python_packages/jetson_tello` folder in this repository.
+  - Once installed, replace all contents of the `/home/{user}/.local/lib/python3.6/site-packages/jetson_tello` (where `{user}` is your username) with the contents of the `python_packages/jetson_tello` folder in this repository.
 
 ## Running the Program
 1. Plug in the USB Wi-Fi adapter into the Jetson.
