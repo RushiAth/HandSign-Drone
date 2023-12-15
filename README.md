@@ -41,3 +41,6 @@ This program is capable of the following actions:
 2. Connect the Jetson to the Tello's Wi-Fi network.
    - This can be done by running `sudo nmcli dev wifi connect TELLO-XXXXXX` in the terminal, where `TELLO-XXXXXX` is the name of the Tello's Wi-Fi network name. Run `sudo nmcli dev wifi` to see the list of available Wi-Fi networks and find the one that corresponds to your drone.
 3. Run `python3 handSignDetection.py` in the terminal and watch your drone take off and perform actions based on your hand signs!
+
+## Troubleshooting
+The only issue we noticed is that the drone may auto-land if it is not receiving any commands for a certain amount of time. If this happens, simply run `python3 handSignDetection.py` again and the drone will take off and continue to perform actions based on your hand signs.
